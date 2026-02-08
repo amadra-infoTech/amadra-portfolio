@@ -22,21 +22,21 @@ const teamMembers = [
   },
   {
     name: "Abhinav R Adiga",
-    role: "Second Year AI/ML Student",
+    role: "Second Year CSE-AI/ML Student",
     image: "/assets/member3.png",
     description:
       "Explores machine learning concepts and applies analytical thinking to problem-solving. Interested in data-driven systems, experimentation, and bridging intelligent models with practical applications."
   },
   {
     name: "Y Srujan",
-    role: "Second Year CTMA Student",
-    image: "/assets/member4.png",
+    role: "Second Year CSE-CTMA Student",
+    image: "/members/srujan.jpeg",
     description:
       "Works at the intersection of product thinking and design. Focuses on user experience, visual clarity, and how technical decisions impact usability and overall product direction."
   },
   {
     name: "Ramachandran S",
-    role: "Second Year CTMA Student",
+    role: "Second Year CSE-CTMA Student",
     image: "/members/ram.jpg",
     description:
       "Leads system design and integration across the team. Actively builds full-stack projects, explores cybersecurity and networking concepts, and focuses on turning ideas into working, real-world systems. Strong interest in engineering depth, experimentation, and long-term scalability."
