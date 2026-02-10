@@ -30,7 +30,7 @@ const teamMembers = [
   {
     name: "Y Srujan",
     role: "Second Year CSE-CTMA Student",
-    image: "/members/srujan.jpeg",
+    image: "/members/srujan.jpg",
     description:
       "Works at the intersection of product thinking and design. Focuses on user experience, visual clarity, and how technical decisions impact usability and overall product direction."
   },
@@ -154,23 +154,23 @@ export default function Home() {
         onClick={() => setActiveMember(null)}
       >
         <div
-          className="bg-gray-900 w-full max-w-[90vw] md:max-w-[85vw] lg:max-w-[80vw] xl:max-w-[75vw] h-[80vh] rounded-2xl p-6 md:p-10 overflow-y-auto relative"
+          className="bg-gray-900 w-full max-w-[90vw] md:max-w-[85vw] lg:max-w-[80vw] xl:max-w-[75vw] max-h-[85vh] md:h-[80vh] rounded-2xl p-6 md:p-10 overflow-y-auto relative"
           onClick={(e) => e.stopPropagation()}
-        >
-          <div className="flex flex-col md:flex-row gap-10 h-full">
-            <div className="relative w-full md:w-2/5 h-full flex items-center">
-              <div className="relative w-[90%] h-[85%]">
+        > 
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+            <div className="md:col-span-2">
+              <div className="relative w-full h-56 md:h-[60vh] rounded-xl overflow-hidden">
                 <Image
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="rounded-xl object-cover object-top"
+                  className="object-cover object-top"
                   sizes="(min-width: 768px) 40vw, 80vw"
                 />
               </div>
             </div>
 
-            <div className="text-gray-200 flex flex-col justify-center">
+            <div className="md:col-span-3 text-gray-200">
               <h2 className="text-2xl font-bold mb-2">
                 {member.name}
               </h2>
