@@ -157,12 +157,6 @@ export default function Home() {
           className="bg-gray-900 w-full max-w-[90vw] md:max-w-[85vw] lg:max-w-[80vw] xl:max-w-[75vw] h-[80vh] rounded-2xl p-6 md:p-10 overflow-y-auto relative"
           onClick={(e) => e.stopPropagation()}
         >
-          <button
-            onClick={() => setActiveMember(null)}
-            className="absolute top-4 right-4 px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm"
-          >
-            Close
-          </button>
           <div className="flex flex-col md:flex-row gap-10 h-full">
             <div className="relative w-full md:w-2/5 h-full flex items-center">
               <div className="relative w-[90%] h-[85%]">
